@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="assets/annotorious.css" />
-    <title>Annotatious - JS</title>
+    <link type="text/css" rel="stylesheet" href="assets/annotorious.min.css" />
+    <link rel="shortcut icon" href="images/javascript.png" type="image/x-icon">
+    <title>Annotarious - JS</title>
 
     <style>
         *{
@@ -26,10 +27,21 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: center;            
         }
         .img h1{
             text-align: center;
+        }
+
+        .img img{
+            margin-top: 30px;
+            width: 700px;
+        }
+
+        @media (max-width:767px){
+            .img img{
+                width: 100%;
+            }
         }
     </style>
 
@@ -51,7 +63,7 @@
 
     <div class="img">
         <h1>Clique e arraste marcando um campo, <br>e digite algo.</h1>
-        <img src="https://www.topimagens.com.br/imagens/imagens-mais-novas.jpg" id="myImage" />
+        <img src="images/wallpaper.jpg" id="myImage" />
     </div>
 
 </body>
